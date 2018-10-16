@@ -1,0 +1,125 @@
+/* BODY */
+body {
+  font-family: Helvetica, arial, sans-serif;
+}
+
+/* LOGO */
+.logo {
+  padding: 20px;
+  width: 300px;
+}
+/* Larger Text */
+.home-text {
+  font-size: 1.6em;
+}
+/* Tabs panel */
+.tab-panel {
+  padding: 20px 0 0 0;
+  border-bottom: .5px grey solid;
+  margin-bottom: 20px;
+}
+/* Default mode */
+.tab-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tab-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tab-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+  font-size: 1.4em;
+}
+.tab-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tab-line > .nav-tabs > li.open, .tab-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #9b3c90;
+}
+.tab-line > .nav-tabs > li.open > a, .tab-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tab-line > .nav-tabs > li.open > a > i, .tab-line > .nav-tabs > li:hover > a > i {
+  color: #662c87;
+}
+.tab-line > .nav-tabs > li.open .dropdown-menu, .tab-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tab-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #662c87;
+  position: relative;
+}
+.tab-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.tab-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tab-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  padding: 15px 0;
+}
+.portlet .tab-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* Below tabs mode */
+
+.tab-line.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tab-line.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+}
+.tab-line.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+}
+.tab-line.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+.nav-tabs {
+  border: none !important;
+}
+.portfolio {
+  padding-bottom: 20px;
+}
+.services {
+  margin-bottom: 30px;
+}
+.service-heading {
+  padding-top: 50px;
+}
+.service-disclaimer {
+  margin-top: 40px;
+}
+.instagram-foot {
+  width: 20px;
+  margin: 10px 20px 5px 2px;
+}
+.facebook-foot {
+  width: 10px;
+  margin: 10px 5px 5px 2px;
+}
+.social-bottom img{
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  float: right;
+}
+footer {
+  margin-top: 20px;
+}
+.navbar-inverse {
+  background-color: #fff;
+}
