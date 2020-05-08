@@ -123,3 +123,26 @@ footer {
 .navbar-inverse {
   background-color: #fff;
 }
+
+.alert {
+	box-sizing: border-box;
+	background-color: #BDFFE1;
+	width: 100%;
+	position: relative; 
+	top: 0;
+	left: 0;
+	z-index: 300;
+	padding: 20px 40px;
+	color: #333;
+}
+
+.alert h2 {
+	font-size: 22px;
+	color: #232323;
+	margin-top: 0;
+}
+
+.alert p {
+	line-height: 1.6em;
+	font-size:18px;
+}
