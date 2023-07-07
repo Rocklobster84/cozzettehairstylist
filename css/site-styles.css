@@ -152,3 +152,63 @@ footer {
 }
 
 /**** Carousel ****/
+
+/*** Modal ***/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 1200px;
+}
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 320px) and (max-width: 412px){
+    .modal-content {
+        margin: 15% auto;
+        width: 100%;
+        max-width: 300px;
+    }
+    .modal-content img {
+        max-width: 250px;
+    }
+}
+
+@media(min-width: 413px) and (max-width: 500px){
+    .modal-content {
+        margin: 7%;
+        width: 50%;
+        max-width: 320px;
+    }
+    .modal-content img {
+        max-width: 300px;
+    }
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
